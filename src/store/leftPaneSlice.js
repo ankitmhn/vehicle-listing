@@ -25,7 +25,12 @@ export const leftPaneSlice = createSlice({
       state.moreData = action.payload;
     },
     appendVehicles: (state, action) => {
-      state.vehicles.push(...action.payload);
+      // state.vehicles.push(...action.payload);
+      const newList = [...state.vehicles, ...action.payload];
+      const uniques = newList.filter(
+        (obj, index) => newList.indexOf(obj) === index
+      );
+      state.vehicles = uniques;
     },
     setPage: (state, action) => {
       state.page = action.payload;
@@ -45,16 +50,20 @@ export const {
 
 //export THUNKS
 export const fetchMoreVehicles = (page) => {
-  return async (dispatch) => {
+  return async (dispatch, getState) => {
     try {
       dispatch(setLoading(true));
+      console.log(`Fetching page ${page}`);
       const response = await axios.get("http://localhost:8000/vehicles", {
         params: { _page: page, _limit: 10 },
       });
       dispatch(setLoading(false));
-      console.log(response.data);
-      if (response.data.length > 0) dispatch(appendVehicles(response.data));
-      else dispatch(setMoreData(false));
+      console.log("Fetched data: ", response.data);
+
+      if (response.data.length > 0) {
+        dispatch(appendVehicles(response.data));
+        // dispatch(setPage(page + 1));
+      } else dispatch(setMoreData(false));
     } catch (e) {
       dispatch(setError(true));
       console.log("Error", e);

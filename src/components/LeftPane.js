@@ -9,14 +9,6 @@ import {
 import TopBar from "./TopBar";
 import VehicleCard from "./VechicleCard";
 
-//custom hook to fetch data
-const useVehicleSearch = (page) => {
-  const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(fetchMoreVehicles(page));
-  }, [page, dispatch]);
-};
-
 //React functional component
 const LeftPane = () => {
   //pull out data from the redux store
@@ -35,18 +27,32 @@ const LeftPane = () => {
 
       if (observer.current) observer.current.disconnect();
       observer.current = new IntersectionObserver((entries) => {
-        if (entries[0].isIntersecting) {
+        if (entries[0].isIntersecting && moreData) {
           console.log("Last card is now visible... fetch more data");
+          if (moreData) {
+            dispatch(fetchMoreVehicles(page));
+            dispatch(setPage(page + 1));
+          }
         }
       });
       if (node) observer.current.observe(node);
     },
-    [loading]
+    // eslint-disable-next-line
+    [loading, page, dispatch]
   );
 
-  useVehicleSearch(page);
+  //first render only - trigger data fetch
+  useEffect(
+    () => {
+      dispatch(fetchMoreVehicles(page));
+      dispatch(setPage(page + 1));
+    },
+    // eslint-disable-next-line
+    []
+  );
+
   return (
-    <div className="flex flex-col w-1/3 m-2 m-2 bg-white">
+    <div className="flex flex-col w-1/3 m-2 bg-white">
       <TopBar />
       <div className="flex flex-col pt-8 h-full" style={{ overflow: "scroll" }}>
         {vehicles.map((vehicle, index) => {
