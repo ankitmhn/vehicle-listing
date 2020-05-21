@@ -1,0 +1,236 @@
+{
+  "vehicles": [
+    {
+      "id": 1,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 2,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 3,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 4,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 5,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 6,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 7,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 8,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 9,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 10,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 11,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 12,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 13,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 14,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 15,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 16,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 17,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 19,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 20,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 21,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 22,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 23,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 24,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 25,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 26,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 27,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 28,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 29,
+      "type": "4w",
+      "make": "Hyundai",
+      "model": "Sonata",
+      "year": "2016",
+      "engineCapacity": 1800
+    },
+    {
+      "id": 30,
+      "type": "4w",
+      "make": "Tata",
+      "model": "Nexon",
+      "year": "2019",
+      "engineCapacity": 1499
+    }
+  ]
+}
