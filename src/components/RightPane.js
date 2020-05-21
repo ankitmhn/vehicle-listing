@@ -2,16 +2,18 @@ import React from "react";
 import { useSelector } from "react-redux";
 
 const RightPane = () => {
-  const selectedVehicle = useSelector(
-    (state) => state.leftPane.vehicles[state.leftPane.selectedVehicleId]
+  const selectedVehicle = useSelector((state) =>
+    state.leftPane.vehicles.find(
+      (v) => v.id === state.leftPane.selectedVehicleId
+    )
   );
 
   return (
-    <div className="w-2/3 m-2 bg-white">
+    <div className="w-2/3 m-2 bg-white bg-gray-200">
       {selectedVehicle ? (
         <>
           <div className="text-blue-900 text-3xl m-3">Details ...</div>
-          <div className="shadow-md m-5 p-4 text-gray-600 ">
+          <div className="shadow-md m-5 p-4 text-gray-600 bg-white">
             {Object.keys(selectedVehicle).map((key) => (
               <p key={key}>
                 {key}: {selectedVehicle[key]}

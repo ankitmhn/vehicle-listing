@@ -12,7 +12,7 @@
       "id": 2,
       "type": "4w",
       "make": "Hyundai",
-      "model": "Sonata",
+      "model": "Verna",
       "year": "2016",
       "engineCapacity": 1800
     },
@@ -20,16 +20,16 @@
       "id": 3,
       "type": "4w",
       "make": "Hyundai",
-      "model": "Sonata",
-      "year": "2016",
+      "model": "Santro",
+      "year": "2007",
       "engineCapacity": 1800
     },
     {
       "id": 4,
       "type": "4w",
       "make": "Hyundai",
-      "model": "Sonata",
-      "year": "2016",
+      "model": "i20",
+      "year": "2011",
       "engineCapacity": 1800
     },
     {
@@ -68,7 +68,7 @@
       "id": 9,
       "type": "4w",
       "make": "Hyundai",
-      "model": "Sonata",
+      "model": "Verna",
       "year": "2016",
       "engineCapacity": 1800
     },
@@ -76,7 +76,7 @@
       "id": 10,
       "type": "4w",
       "make": "Hyundai",
-      "model": "Sonata",
+      "model": "Santro",
       "year": "2016",
       "engineCapacity": 1800
     },
@@ -84,7 +84,7 @@
       "id": 11,
       "type": "4w",
       "make": "Hyundai",
-      "model": "Sonata",
+      "model": "Creta",
       "year": "2016",
       "engineCapacity": 1800
     },
@@ -92,7 +92,7 @@
       "id": 12,
       "type": "4w",
       "make": "Hyundai",
-      "model": "Sonata",
+      "model": "Creta",
       "year": "2016",
       "engineCapacity": 1800
     },
@@ -100,7 +100,7 @@
       "id": 13,
       "type": "4w",
       "make": "Hyundai",
-      "model": "Sonata",
+      "model": "Tucson",
       "year": "2016",
       "engineCapacity": 1800
     },
@@ -108,7 +108,7 @@
       "id": 14,
       "type": "4w",
       "make": "Hyundai",
-      "model": "Sonata",
+      "model": "i10",
       "year": "2016",
       "engineCapacity": 1800
     },
@@ -116,7 +116,7 @@
       "id": 15,
       "type": "4w",
       "make": "Hyundai",
-      "model": "Sonata",
+      "model": "Tucson",
       "year": "2016",
       "engineCapacity": 1800
     },

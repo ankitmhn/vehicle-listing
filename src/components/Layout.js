@@ -5,7 +5,7 @@ import RightPane from "./RightPane";
 const Layout = () => {
   return (
     <div
-      className="container flex m-auto justify-around bg-gray-200 flex-row h-full"
+      className="container flex flex-grow m-auto justify-around bg-gray-100 flex-row h-full"
       style={{ position: "absolute" }}
     >
       <LeftPane />
